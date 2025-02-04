@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lab 1"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-27 08:34:29 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAxLTI3OzA3OjQ0OjQ1IEFNOzI4MDM="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAxLTI3OzA4OjM0OjI5IEFNOzE7MjkxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello, World!&quot;" newline="True"/>
+            <output expression="&quot;My name is Joe Gunchy!&quot;" newline="True"/>
+            <output expression="1947" newline="True"/>
+            <output expression="12 + 7" newline="True"/>
+            <output expression="&quot;12&quot; &amp; &quot;7&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

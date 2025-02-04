@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tip Calculator"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This example program inputs a bill and computes the tip and total amount."/>
+        <attribute name="saved" value="2025-01-30 07:25:33 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAxLTMwOzA3OjIxOjQ3IEFNOzI3OTQ="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAxLTMwOzA3OjI1OjMzIEFNOzE7MjkwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bill" type="Real" array="False" size=""/>
+            <declare name="tip" type="Real" array="False" size=""/>
+            <output expression="&quot;How much is the bill?&quot;" newline="True"/>
+            <input variable="bill"/>
+            <assign variable="tip" expression="bill * 0.15"/>
+            <output expression="&quot;The tip is $&quot; &amp; tip" newline="True"/>
+            <output expression="&quot;The total, with tax, is $&quot; &amp; (tip + bill)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

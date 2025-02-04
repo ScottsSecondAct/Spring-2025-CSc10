@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="MaxValue"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-30 07:41:24 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAxLTMwOzA3OjI3OjUxIEFNOzI3OTU="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAxLTMwOzA3OjQxOjI0IEFNOzE7Mjg5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="values" type="Integer" array="True" size="5"/>
+            <assign variable="values[0]" expression="1"/>
+            <assign variable="values[1]" expression="55"/>
+            <assign variable="values[2]" expression="17"/>
+            <assign variable="values[3]" expression="111"/>
+            <assign variable="values[4]" expression="7"/>
+            <declare name="max" type="Integer" array="False" size=""/>
+            <assign variable="max" expression="values[0]"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <if expression="values[i] &gt; max">
+                    <then>
+                        <assign variable="max" expression="values[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Max: &quot; &amp; max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
