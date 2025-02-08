@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sum-of-two-numbers"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-06 10:25:01 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA2OzEwOjIwOjMwIEFNOzI3ODM="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA2OzEwOjI1OjAxIEFNOzE7Mjg5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number1" type="Integer" array="False" size=""/>
+            <declare name="number2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number1: &quot;" newline="True"/>
+            <input variable="number1"/>
+            <output expression="&quot;Enter number2: &quot;" newline="True"/>
+            <input variable="number2"/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="number1 + number2"/>
+            <output expression="&quot;sum = &quot; &amp; sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

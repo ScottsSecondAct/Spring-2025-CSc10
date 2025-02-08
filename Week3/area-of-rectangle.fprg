@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area-of-rectangle"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-06 10:29:29 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA2OzEwOjI1OjEwIEFNOzI3ODY="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA2OzEwOjI5OjI5IEFNOzE7MjkwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="height" type="Integer" array="False" size=""/>
+            <declare name="width" type="Integer" array="False" size=""/>
+            <output expression="&quot;Height: &quot;" newline="True"/>
+            <input variable="height"/>
+            <output expression="&quot;width: &quot;" newline="True"/>
+            <input variable="width"/>
+            <declare name="area" type="Integer" array="False" size=""/>
+            <assign variable="area" expression="height*width"/>
+            <output expression="&quot;area = &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

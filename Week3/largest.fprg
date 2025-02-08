@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="largest"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-06 10:12:31 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA2OzA5OjU3OjU3IEFNOzI4MTA="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA2OzEwOjEyOjMxIEFNOzI7Mjg5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number1: &quot;" newline="True"/>
+            <input variable="number1"/>
+            <declare name="number2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number2: &quot;" newline="True"/>
+            <input variable="number2"/>
+            <if expression="number1 &gt; number2">
+                <then>
+                    <output expression="&quot;number1 is greater than number2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;number2 is greater than number1&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

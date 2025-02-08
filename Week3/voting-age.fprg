@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="voting-age"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-08 07:40:58 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA4OzA3OjM3OjEyIEFNOzI3OTk="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA4OzA3OjQwOjU4IEFNOzI7MjkxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="votingAge" type="Integer" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <assign variable="votingAge" expression="18"/>
+            <output expression="&quot;Please enter your age: &quot;" newline="False"/>
+            <input variable="age"/>
+            <if expression="age &gt;= votingAge">
+                <then>
+                    <output expression="&quot;You are welcome to vote.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sorry, you are too young to vote.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

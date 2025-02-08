@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="positive-or-negative-number"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-07 05:53:07 PM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA3OzA1OjQ4OjEyIFBNOzI4MTM="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTA3OzA1OjUzOjA3IFBNOzI7MjkyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter a number: &quot;" newline="True"/>
+            <input variable="number"/>
+            <if expression="number &gt;= 0">
+                <then>
+                    <if expression="number == 0">
+                        <then>
+                            <output expression="&quot;The number is zero&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;The number is positive&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;The number is negative&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
