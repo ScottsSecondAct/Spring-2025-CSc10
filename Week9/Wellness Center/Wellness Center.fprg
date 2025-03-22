@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Wellness Center"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-19 08:19:24 PM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAzLTE5OzA3OjM2OjMzIFBNOzI4MTk="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAzLTE5OzA4OjE5OjI0IFBNOzE7MjkyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DAYS" type="Integer" array="False" size=""/>
+            <declare name="MAXSTEPS" type="Integer" array="False" size=""/>
+            <declare name="steps" type="Integer" array="True" size="7"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <declare name="totalSteps" type="Integer" array="False" size=""/>
+            <declare name="averageSteps" type="Real" array="False" size=""/>
+            <assign variable="DAYS" expression="7"/>
+            <assign variable="MAXSTEPS" expression="50000"/>
+            <assign variable="totalSteps" expression="0"/>
+            <for variable="index" start="0" end="DAYS-1" direction="inc" step="1">
+                <output expression="&quot;Enter the number of steps for day &quot; &amp; (index+1) &amp; &quot;: &quot;" newline="True"/>
+                <input variable="steps[index]"/>
+                <comment text="Validate the data"/>
+                <while expression="steps[index] &lt; 0 OR steps[index] &gt; MAXSTEPS">
+                    <output expression="&quot;ERROR: Steps must be from 0 to &quot; &amp; MAXSTEPS &amp; &quot;. Please re-enter.&quot;" newline="True"/>
+                    <input variable="steps[index]"/>
+                </while>
+            </for>
+            <comment text="Sum all steps"/>
+            <for variable="index" start="0" end="DAYS - 1" direction="inc" step="1">
+                <assign variable="totalSteps" expression="totalSteps + steps[index]"/>
+            </for>
+            <assign variable="averageSteps" expression="totalSteps / DAYS"/>
+            <output expression="&quot;Total steps this week: &quot; &amp; totalSteps" newline="True"/>
+            <output expression="&quot;Average daily steps: &quot; &amp; averageSteps" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

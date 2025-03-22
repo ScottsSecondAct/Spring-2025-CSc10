@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="function-calls"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-13 10:50:01 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTEzOzEwOjAyOjMzIEFNOzI3ODQ="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTEzOzEwOjUwOjAxIEFNOzE7Mjg5MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="message" type="String" array="False" size=""/>
+            <assign variable="message" expression="&quot;Hi Ron!&quot;"/>
+            <call expression="PrintMessage(message)"/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="circumference" type="Real" array="False" size=""/>
+            <declare name="radius" type="Real" array="False" size=""/>
+            <declare name="volume" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter radius of circle: &quot;" newline="False"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="AreaOfCircle(radius)"/>
+            <assign variable="circumference" expression="CircumferenceOfCircle(radius)"/>
+            <assign variable="volume" expression="VolumeOfSphere(radius)"/>
+            <output expression="&quot;Volume of sphere is &quot; &amp; volume" newline="True"/>
+            <output expression="&quot;The area of a circle with radius of &quot; &amp; radius &amp; &quot; is &quot; &amp; area &amp; &quot;.  The circumference is &quot; &amp; circumference &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;Enter radius of new circle: &quot;" newline="False"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="AreaOfCircle(radius)"/>
+            <output expression="&quot;The area of a circle with radius of &quot; &amp; radius &amp; &quot; is &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+    <function name="AreaOfCircle" type="Real" variable="area">
+        <parameters>
+            <parameter name="radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="pi*radius ^ 2"/>
+        </body>
+    </function>
+    <function name="CircumferenceOfCircle" type="Real" variable="circumference">
+        <parameters>
+            <parameter name="radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="circumference" type="Real" array="False" size=""/>
+            <assign variable="circumference" expression="2*pi*radius"/>
+        </body>
+    </function>
+    <function name="PrintMessage" type="None" variable="">
+        <parameters>
+            <parameter name="message" type="String" array="False"/>
+        </parameters>
+        <body>
+            <output expression="message" newline="True"/>
+        </body>
+    </function>
+    <function name="VolumeOfSphere" type="Real" variable="volume">
+        <parameters>
+            <parameter name="radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="volume" type="Real" array="False" size=""/>
+            <assign variable="volume" expression="4/3*pi*radius^3"/>
+        </body>
+    </function>
+</flowgorithm>

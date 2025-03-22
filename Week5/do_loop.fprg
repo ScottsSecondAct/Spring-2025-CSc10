@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="do_loop"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-20 10:29:30 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTIwOzEwOjI3OjMxIEFNOzI3ODc="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTIwOzEwOjI5OjMwIEFNOzE7Mjg5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <do expression="X &gt; 0">
+                <output expression="&quot;Enter number &gt; 0&quot;" newline="True"/>
+                <input variable="x"/>
+            </do>
+            <output expression="&quot;Howdy&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Class Activity"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 10:32:04 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAzLTEzOzEwOjA1OjA1IEFNOzI3ODc="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAzLTEzOzEwOjMyOjA0IEFNOzE7Mjg5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="PrintName"/>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="10"/>
+            <assign variable="num2" expression="5"/>
+            <call expression="addWithPrintSum(num1, num2)"/>
+            <declare name="val" type="Integer" array="False" size=""/>
+            <assign variable="val" expression="add(num1, num2)"/>
+            <output expression="&quot;val = &quot; &amp; val" newline="True"/>
+        </body>
+    </function>
+    <function name="add" type="Integer" variable="sum">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="a+b"/>
+        </body>
+    </function>
+    <function name="addWithPrintSum" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="a+b"/>
+            <output expression="&quot;sum = &quot; &amp; sum" newline="True"/>
+        </body>
+    </function>
+    <function name="PrintName" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;********************&quot;" newline="True"/>
+            <output expression="&quot;    Cool Program&quot;" newline="True"/>
+            <output expression="&quot;********************&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

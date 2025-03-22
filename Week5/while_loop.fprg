@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="while_loop"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-20 10:27:28 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTIwOzEwOjIxOjM3IEFNOzI3ODc="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTIwOzEwOjI3OjI4IEFNOzE7MjkwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number&gt;0&quot;" newline="True"/>
+            <input variable="x"/>
+            <while expression="X &gt; 0">
+                <output expression="&quot;Enter number &gt; 0&quot;" newline="True"/>
+                <input variable="x"/>
+            </while>
+            <output expression="&quot;Howdy&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

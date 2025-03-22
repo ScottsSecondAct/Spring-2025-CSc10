@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Validation"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-18 10:30:31 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAzLTE4OzEwOjIyOjMxIEFNOzI3OTA="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAzLTE4OzEwOjMwOjMxIEFNOzE7Mjg5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price" type="Real" array="False" size=""/>
+            <assign variable="price" expression="GetPrice()"/>
+            <output expression="&quot;The price was: &quot; &amp; price" newline="True"/>
+        </body>
+    </function>
+    <function name="GetPrice" type="Real" variable="price">
+        <parameters/>
+        <body>
+            <declare name="price" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter Price: &quot;" newline="True"/>
+            <input variable="price"/>
+            <while expression="price &lt; 0">
+                <output expression="&quot;Price must be positive!&quot;" newline="True"/>
+                <output expression="&quot;Enter Price: &quot;" newline="True"/>
+                <input variable="price"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="nested-for-loop"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 10:15:24 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTI1OzEwOjExOjE5IEFNOzI3OTE="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTI1OzEwOjE1OjI0IEFNOzE7Mjg5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="row" type="Integer" array="False" size=""/>
+            <declare name="col" type="Integer" array="False" size=""/>
+            <for variable="row" start="0" end="2" direction="inc" step="1">
+                <for variable="col" start="0" end="2" direction="inc" step="1">
+                    <output expression="&quot;row&quot; &amp; row &amp; &quot; col&quot; &amp; col" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

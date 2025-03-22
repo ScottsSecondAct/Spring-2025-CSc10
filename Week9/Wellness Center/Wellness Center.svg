@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 4.5.0 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1900" height="5000">
+	<rect x="0" y="0" width="1900" height="5000" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,125 400,186"/>
+		<polygon fill="#404040" stroke="none" points="400,200 413,175 386,175"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,4800 400,4861"/>
+		<polygon fill="#404040" stroke="none" points="400,4875 413,4850 386,4850"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 300,25 A 50 50, 0, 0 0, 300 125 L 500,125 A 50 50, 0, 0 0, 500 25 Z"/>
+			<text x="400" y="40" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="400" dy="50" unicode-bidi="embed">Main</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 300,4875 A 50 50, 0, 0 0, 300 4975 L 500,4975 A 50 50, 0, 0 0, 500 4875 Z"/>
+			<text x="400" y="4890" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="400" dy="50" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,325 400,386"/>
+			<polygon fill="#404040" stroke="none" points="400,400 413,375 386,375"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,525 400,586"/>
+			<polygon fill="#404040" stroke="none" points="400,600 413,575 386,575"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,725 400,786"/>
+			<polygon fill="#404040" stroke="none" points="400,800 413,775 386,775"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,925 400,986"/>
+			<polygon fill="#404040" stroke="none" points="400,1000 413,975 386,975"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1125 400,1186"/>
+			<polygon fill="#404040" stroke="none" points="400,1200 413,1175 386,1175"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1325 400,1386"/>
+			<polygon fill="#404040" stroke="none" points="400,1400 413,1375 386,1375"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1500 400,1561"/>
+			<polygon fill="#404040" stroke="none" points="400,1575 413,1550 386,1550"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1675 400,1736"/>
+			<polygon fill="#404040" stroke="none" points="400,1750 413,1725 386,1725"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1850 400,1936"/>
+			<polygon fill="#404040" stroke="none" points="400,1950 413,1925 386,1925"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,2050 400,3575"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,3575 400,3711"/>
+			<polygon fill="#404040" stroke="none" points="400,3725 413,3700 386,3700"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,3825 400,4186"/>
+			<polygon fill="#404040" stroke="none" points="400,4200 413,4175 386,4175"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,4350 400,4411"/>
+			<polygon fill="#404040" stroke="none" points="400,4425 413,4400 386,4400"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,4575 400,4636"/>
+			<polygon fill="#404040" stroke="none" points="400,4650 413,4625 386,4625"/>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,200 L 250,325 L 550,325 L 550,200 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="250,225 550,225"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="275,200 275,325"/>
+				<text x="412" y="240" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer DAYS</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 200,400 L 200,525 L 600,525 L 600,400 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="200,425 600,425"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="225,400 225,525"/>
+				<text x="412" y="440" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer MAXSTEPS</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 175,600 L 175,725 L 625,725 L 625,600 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="175,625 625,625"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="200,600 200,725"/>
+				<text x="412" y="640" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer Array steps[7]</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,800 L 250,925 L 550,925 L 550,800 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="250,825 550,825"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="275,800 275,925"/>
+				<text x="412" y="840" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer index</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 200,1000 L 200,1125 L 600,1125 L 600,1000 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="200,1025 600,1025"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="225,1000 225,1125"/>
+				<text x="412" y="1040" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer totalSteps</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 175,1200 L 175,1325 L 625,1325 L 625,1200 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="175,1225 625,1225"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="200,1200 200,1325"/>
+				<text x="412" y="1240" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Real averageSteps</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,1400 L 250,1500 L 550,1500 L 550,1400 Z"/>
+				<text x="400" y="1415" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">DAYS = 7</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 200,1575 L 200,1675 L 600,1675 L 600,1575 Z"/>
+				<text x="400" y="1590" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">MAXSTEPS = 50000</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,1750 L 250,1850 L 550,1850 L 550,1750 Z"/>
+				<text x="400" y="1765" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">totalSteps = 0</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="650,2000 925,2000 925,2086"/>
+				<polygon fill="#404040" stroke="none" points="925,2100 938,2075 911,2075"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="925,2825 925,3425 450,3425 450,2063"/>
+				<polygon fill="#404040" stroke="none" points="450,2050 436,2074 463,2074"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="925,2250 925,2311"/>
+					<polygon fill="#404040" stroke="none" points="925,2325 938,2300 911,2300"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="925,2425 925,2550"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="925,2550 925,2661"/>
+					<polygon fill="#404040" stroke="none" points="925,2675 938,2650 911,2650"/>
+					<g>
+						<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 625,2100 L 550,2250 L 1225,2250 L 1300,2100 Z"/>
+						<text x="925" y="2115" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="925" dy="50" unicode-bidi="embed">Output &quot;Enter the number of</tspan>
+							<tspan x="925" dy="50" unicode-bidi="embed"> steps for day &quot; &amp; (index+1) &amp; &quot;: &quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#D0E8FF" stroke="#7088A0" stroke-width="3" stroke-dasharray="none" d="M 750,2325 L 700,2425 L 1100,2425 L 1150,2325 Z"/>
+						<text x="925" y="2340" fill="#102840" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="925" dy="50" unicode-bidi="embed">Input steps[index]</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="925,2550 1050,2550"/>
+						<g>
+							<path fill="#FFFFFF" stroke="#404040" stroke-width="3" stroke-dasharray="6,6" d="M 1050,2500 L 1050,2600 L 1400,2600 L 1400,2500 Z"/>
+							<text x="1225" y="2515" fill="#303030" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1225" dy="50" unicode-bidi="embed">Validate the data</tspan>
+							</text>
+						</g>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1250,2750 1475,2750 1475,2861"/>
+						<polygon fill="#404040" stroke="none" points="1475,2875 1488,2850 1461,2850"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1475,3250 1475,3325 975,3325 975,2838"/>
+						<polygon fill="#404040" stroke="none" points="975,2825 961,2849 988,2849"/>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1475,3075 1475,3136"/>
+							<polygon fill="#404040" stroke="none" points="1475,3150 1488,3125 1461,3125"/>
+							<g>
+								<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 1175,2875 L 1075,3075 L 1775,3075 L 1875,2875 Z"/>
+								<text x="1475" y="2890" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1475" dy="50" unicode-bidi="embed">Output &quot;ERROR: Steps must</tspan>
+									<tspan x="1475" dy="50" unicode-bidi="embed"> be from 0 to &quot; &amp; MAXSTEPS &amp; &quot;.</tspan>
+									<tspan x="1475" dy="50" unicode-bidi="embed"> Please re-enter.&quot;</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#D0E8FF" stroke="#7088A0" stroke-width="3" stroke-dasharray="none" d="M 1300,3150 L 1250,3250 L 1650,3250 L 1700,3150 Z"/>
+								<text x="1475" y="3165" fill="#102840" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1475" dy="50" unicode-bidi="embed">Input steps[index]</tspan>
+								</text>
+							</g>
+						</g>
+						<g>
+							<path fill="#FFE0B0" stroke="#A08050" stroke-width="3" stroke-dasharray="none" d="M 675,2675 L 600,2750 L 675,2825 L 1175,2825 L 1250,2750 L 1175,2675 Z"/>
+							<text x="925" y="2690" fill="#402000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="925" dy="50" unicode-bidi="embed">steps[index] &lt; 0 OR steps</tspan>
+								<tspan x="925" dy="50" unicode-bidi="embed">[index] &gt; MAXSTEPS</tspan>
+							</text>
+						</g>
+						<text x="1325" y="2665" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1325" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="850" y="2840" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="850" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0B0" stroke="#A08050" stroke-width="3" stroke-dasharray="none" d="M 200,1950 L 150,2000 L 200,2050 L 600,2050 L 650,2000 L 600,1950 Z"/>
+					<text x="400" y="1965" fill="#402000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="400" dy="50" unicode-bidi="embed">index = 0 to DAYS-1</tspan>
+					</text>
+				</g>
+				<text x="712" y="1915" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="712" dy="50" unicode-bidi="embed">Next</tspan>
+				</text>
+				<text x="325" y="2065" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="325" dy="50" unicode-bidi="embed">Done</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="400,3575 525,3575"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#404040" stroke-width="3" stroke-dasharray="6,6" d="M 525,3525 L 525,3625 L 825,3625 L 825,3525 Z"/>
+					<text x="675" y="3540" fill="#303030" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="675" dy="50" unicode-bidi="embed">Sum all steps</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="650,3775 800,3775 800,3861"/>
+				<polygon fill="#404040" stroke="none" points="800,3875 813,3850 786,3850"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="800,4025 800,4100 450,4100 450,3838"/>
+				<polygon fill="#404040" stroke="none" points="450,3825 436,3849 463,3849"/>
+				<g>
+					<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 550,3875 L 550,4025 L 1050,4025 L 1050,3875 Z"/>
+					<text x="800" y="3890" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="800" dy="50" unicode-bidi="embed">totalSteps = totalSteps +</tspan>
+						<tspan x="800" dy="50" unicode-bidi="embed"> steps[index]</tspan>
+					</text>
+				</g>
+				<g>
+					<path fill="#FFE0B0" stroke="#A08050" stroke-width="3" stroke-dasharray="none" d="M 200,3725 L 150,3775 L 200,3825 L 600,3825 L 650,3775 L 600,3725 Z"/>
+					<text x="400" y="3740" fill="#402000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="400" dy="50" unicode-bidi="embed">index = 0 to DAYS - 1</tspan>
+					</text>
+				</g>
+				<text x="712" y="3690" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="712" dy="50" unicode-bidi="embed">Next</tspan>
+				</text>
+				<text x="325" y="3840" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="325" dy="50" unicode-bidi="embed">Done</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 125,4200 L 125,4350 L 675,4350 L 675,4200 Z"/>
+				<text x="400" y="4215" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">averageSteps = totalSteps /</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed"> DAYS</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 175,4425 L 100,4575 L 625,4575 L 700,4425 Z"/>
+				<text x="400" y="4440" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">Output &quot;Total steps this</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed"> week: &quot; &amp; totalSteps</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 100,4650 L 25,4800 L 700,4800 L 775,4650 Z"/>
+				<text x="400" y="4665" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">Output &quot;Average daily steps: &quot; &amp;</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed"> averageSteps</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

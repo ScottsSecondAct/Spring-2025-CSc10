@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="nested-while-loop"/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 10:19:16 AM"/>
+        <attribute name="created" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTI1OzEwOjE1OjM4IEFNOzI3OTY="/>
+        <attribute name="edited" value="c2NvdHQ7U0NPVFRELUxBUFRPUDsyMDI1LTAyLTI1OzEwOjE5OjE2IEFNOzE7MjkwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="row" type="Integer" array="False" size=""/>
+            <declare name="col" type="Integer" array="False" size=""/>
+            <assign variable="row" expression="0"/>
+            <while expression="row &lt; 3">
+                <assign variable="col" expression="0"/>
+                <while expression="col &lt; 3">
+                    <output expression="&quot;row&quot; &amp; row &amp; &quot; col&quot; &amp; col" newline="True"/>
+                    <assign variable="col" expression="col+1"/>
+                </while>
+                <assign variable="row" expression="row+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
